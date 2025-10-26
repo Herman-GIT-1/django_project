@@ -4,3 +4,5 @@ from django.http import HttpResponse
 # Create your views here.
 def index(request):
     return render(request, 'main/index.html')
+def game(request):
+    return render(request, 'main/game.html')
